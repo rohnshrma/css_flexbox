@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+
+/* a class can be used by multiple elements and a single element/tag can have mulitiple classes */
+
+/* css flexbox : container / parent */
+/* if you give a box(surronding box/wrapper/parent)  display:flex */
+/* all the elements within it will become inline in nature */
+
+
+
+#parent{
+    background-color: #ccc;
+    padding:20px;
+
+    display:flex;
+}
+
+.child{
+    padding:20px;
+
+}
+
+/* .c1{
+    background-color: red;
+    width:20%;
+}
+.c2{
+    background-color: blue;
+    width:30%;
+}
+.c3{
+    background-color: yellow;
+    width:30%;
+}
+.c4{
+    background-color: green;
+    width:20%;
+} */
+
+.link{
+    background-color: red;
+}
+
+
+
+
+
+.container{
+    padding:48px 72px;
+    text-align: center;
+    border: 5px solid #000;
+    margin:10px;
+}
+
+/* parent */
+#content {
+    margin:10px;
+    display: flex;
+}
+
+#content .cont{
+    border:5px solid #000;
+    height:400px;
+    text-align: center;
+}
+
+#content .c1{
+    width:20%;
+}
+#content .c2{
+    width:60%;
+}
+#content .c3{
+    width:20%;
+}
